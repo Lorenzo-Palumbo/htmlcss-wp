@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/sfondo.jpg");
+}
+
+.container{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.blocco{
+    height: 250px;
+    background-image: url("../img/default-header.jpg");
+    background-color: yellow;
+    position: relative;
+    border: 8px solid white;
+}
+
+span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 43px;
+    font-family: sans-serif;
+    border: 3px solid white;
+    padding: 0 10px;
+}
+
+.sottotitolo p{
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 35px
+}
+
+.row{
+    height: 500px;
+}
+
+.menu{
+    background-color: red;
+    position: relative;
+    margin: 0 auto;
+    height: 30px
+}
+
+ul#barra{
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul#barra li{
+    background-color: gray;
+    border-bottom: 5px solid black;
+    display: block;
+    height: 30px;
+    margin: 2px;
+    float: left;
+}
+
+ul#barra li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    height: 30px;
+    text-align: center;
+}
+
+aside{
+    width: 25%;
+    height: 100%;
+    background-color: violet;
+    float: left;
+}
+
+main{
+    width:50%;
+    height: 100%;
+    float: left;
+    padding: 0 10px
+}
+
+main .content{
+    height: 100%;
+    background-color: purple
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 10px
+}
