@@ -48,26 +48,19 @@ span{
 }
 
 .menu{
-    background-color: red;
-    position: relative;
-    margin: 0 auto;
-    height: 30px
+    background-color: gray
 }
 
 ul#barra{
     font-size: 11px;
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
 ul#barra li{
-    background-color: gray;
-    border-bottom: 5px solid black;
     display: block;
     height: 30px;
-    margin: 2px;
     float: left;
+    margin: 0
 }
 
 ul#barra li a {
@@ -78,25 +71,30 @@ ul#barra li a {
     text-decoration: none;
     height: 30px;
     text-align: center;
+    padding: 0 36px
 }
 
 aside{
-    width: 25%;
-    height: 100%;
-    background-color: violet;
+    width: 23%;
+    background-color: white;
     float: left;
+    margin-top: 15px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: white;
 }
 
 main{
     width:50%;
-    height: 100%;
     float: left;
-    padding: 0 10px
+    margin:15px 15px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: white;
 }
 
 main .content{
     height: 100%;
-    background-color: purple
 }
 
 .clearfix:after{
