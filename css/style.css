@@ -11,6 +11,7 @@ body{
 .container{
     width: 60vw;
     margin: 0 auto;
+    position: relative;
 }
 
 .blocco{
@@ -74,7 +75,7 @@ ul#barra li a {
     padding: 0 36px
 }
 
-aside{
+.left{
     width: 23%;
     background-color: white;
     float: left;
@@ -87,7 +88,7 @@ aside{
 main{
     width:50%;
     float: left;
-    margin:15px 15px;
+    margin:15px 15px 15px 19px;
     border: solid white;
     border-radius: 5px;
     background-color: white;
@@ -103,8 +104,51 @@ main .content{
     clear: both;
 }
 
+.cont1{
+    width: 23%;
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+}
+
+.cont2{
+    width: 23%;
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 50%
+}
+
+.cont3{
+    width: 23%;
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 69%
+}
+
 footer{
     height: 100px;
     background-color: lightblue;
-    margin-top: 10px
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fab{
+    width: 50px;
 }
